@@ -5,12 +5,16 @@ at 180 68; aggregateDT is dimensioned at 10299 563.
 
 The columns (variables) of meanDT are named as follows:  
 
- 1 subjects    
- 2 activities   
- 3 Mean.timeBodyAcc.mean.X      
- [4] Mean.timeBodyAcc.mean.Y           Mean.timeBodyAcc.mean.Z           Mean.timeBodyAcc.std.X       
- [7] Mean.timeBodyAcc.std.Y            Mean.timeBodyAcc.std.Z            Mean.timeGravityAcc.mean.X          
-[10] Mean.timeGravityAcc.mean.Y        Mean.timeGravityAcc.mean.Z        Mean.timeGravityAcc.std.X        
+ 1  subjects    
+ 2  activities   
+ 3  Mean.timeBodyAcc.mean.X      
+ 4  Mean.timeBodyAcc.mean.Y  
+ 5  Mean.timeBodyAcc.mean.Z   
+ 6  Mean.timeBodyAcc.std.X          
+ 7  Mean.timeBodyAcc.std.Y           
+ 8  Mean.timeBodyAcc.std.Z   
+ 9  Mean.timeGravityAcc.mean.X  
+ 10 Mean.timeGravityAcc.mean.Y        Mean.timeGravityAcc.mean.Z        Mean.timeGravityAcc.std.X        
 [13] Mean.timeGravityAcc.std.Y         Mean.timeGravityAcc.std.Z         Mean.timeBodyAccJerk.mean.X        
 [16] Mean.timeBodyAccJerk.mean.Y       Mean.timeBodyAccJerk.mean.Z       Mean.timeBodyAccJerk.std.X       
 [19] Mean.timeBodyAccJerk.std.Y        Mean.timeBodyAccJerk.std.Z        Mean.timeBodyGyro.mean.X         
