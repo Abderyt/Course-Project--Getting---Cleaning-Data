@@ -55,7 +55,6 @@ freqBodyAccJerk.XYZ, freqBodyGyro.XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freq
 
 4. These signals were subsequently used to estimate variables for each pattern:  
 '.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.   
-
 *timeBodyAcc.XYZ   
 *timeGravityAcc.XYZ   
 *timeBodyAccJerk.XYZ   
@@ -74,8 +73,7 @@ freqBodyAccJerk.XYZ, freqBodyGyro.XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freq
 *freqBodyGyroMag   
 *freqBodyGyroJerkMag   
 
-5. The set of variables that were estimated from these signals are: 
-
+5. The set of variables that were estimated from these signals are:   
 mean: Mean value   
 std: Standard deviation   
 mad: Median absolute deviation   
