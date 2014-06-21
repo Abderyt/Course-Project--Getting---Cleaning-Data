@@ -17,12 +17,8 @@ system("sed -f dataCmds.txt test/X_test.txt > testData.txt")
 system("cat trainData.txt testData.txt > aggregateData.txt")
 
 # This is a 7 line set of regular expressions that are passed to
-#     sed to do the following to the features.txt file:
-<<<<<<< HEAD
-#		  Remove empty parenthesis
-=======
+#     sed to do the following to the features.txt file
 #         Remove empty parenthesis
->>>>>>> 03cc6f2f8787ee98ba64e157726e64d235ec1b9e
 #         Replace commas with periods
 #         Replace dashes with periods
 #         Replace the fBody abbreviation at the beginning of names with the string freqBody
@@ -90,10 +86,7 @@ setnames(aggregateDT,newNames)
 #     data table.  Rather than using a several lines of code to correct the 
 #     formatting, it is more straight forward to simply use the following
 #     to get the correctly formatted activity vector.
-<<<<<<< HEAD
-=======
 #     This could and should be done in a better way.
->>>>>>> 03cc6f2f8787ee98ba64e157726e64d235ec1b9e
 activityVector<-c("Walking","WalkingUpStairs","WalkingDownStairs","Sitting","Standing","Laying")
 for(i in 1:6) {
 	activities[activities==i]<-activityVector[i]
