@@ -55,9 +55,7 @@ freqBodyAccJerk.XYZ, freqBodyGyro.XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freq
 '.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 *timeBodyAcc.XYZ
-
 *timeGravityAcc.XYZ
-
 *timeBodyAccJerk.XYZ
 
 *timeBodyGyro.XYZ
