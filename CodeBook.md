@@ -14,26 +14,65 @@ The columns (variables) of meanDT are named as follows:
  7  Mean.timeBodyAcc.std.Y           
  8  Mean.timeBodyAcc.std.Z   
  9  Mean.timeGravityAcc.mean.X  
- 10 Mean.timeGravityAcc.mean.Y        Mean.timeGravityAcc.mean.Z        Mean.timeGravityAcc.std.X        
-[13] Mean.timeGravityAcc.std.Y         Mean.timeGravityAcc.std.Z         Mean.timeBodyAccJerk.mean.X        
-[16] Mean.timeBodyAccJerk.mean.Y       Mean.timeBodyAccJerk.mean.Z       Mean.timeBodyAccJerk.std.X       
-[19] Mean.timeBodyAccJerk.std.Y        Mean.timeBodyAccJerk.std.Z        Mean.timeBodyGyro.mean.X         
-[22] Mean.timeBodyGyro.mean.Y          Mean.timeBodyGyro.mean.Z          Mean.timeBodyGyro.std.X          
-[25] Mean.timeBodyGyro.std.Y           Mean.timeBodyGyro.std.Z           Mean.timeBodyGyroJerk.mean.X       
-[28] Mean.timeBodyGyroJerk.mean.Y      Mean.timeBodyGyroJerk.mean.Z      Mean.timeBodyGyroJerk.std.X      
-[31] Mean.timeBodyGyroJerk.std.Y       Mean.timeBodyGyroJerk.std.Z       Mean.timeBodyAccMag.mean         
-[34] Mean.timeBodyAccMag.std           Mean.timeGravityAccMag.mean       Mean.timeGravityAccMag.std       
-[37] Mean.timeBodyAccJerkMag.mean      Mean.timeBodyAccJerkMag.std       Mean.timeBodyGyroMag.mean        
-[40] Mean.timeBodyGyroMag.std          Mean.timeBodyGyroJerkMag.mean     Mean.timeBodyGyroJerkMag.std     
-[43] Mean.freqBodyAcc.mean.X           Mean.freqBodyAcc.mean.Y           Mean.freqBodyAcc.mean.Z          
-[46] Mean.freqBodyAcc.std.X            Mean.freqBodyAcc.std.Y            Mean.freqBodyAcc.std.Z           
-[49] Mean.freqBodyAccJerk.mean.X       Mean.freqBodyAccJerk.mean.Y       Mean.freqBodyAccJerk.mean.Z      
-[52] Mean.freqBodyAccJerk.std.X        Mean.freqBodyAccJerk.std.Y        Mean.freqBodyAccJerk.std.Z       
-[55] Mean.freqBodyGyro.mean.X          Mean.freqBodyGyro.mean.Y          Mean.freqBodyGyro.mean.Z         
-[58] Mean.freqBodyGyro.std.X           Mean.freqBodyGyro.std.Y           Mean.freqBodyGyro.std.Z          
-[61] Mean.freqBodyAccMag.mean          Mean.freqBodyAccMag.std           Mean.freqBodyBodyAccJerkMag.mean   
-[64] Mean.freqBodyBodyAccJerkMag.std   Mean.freqBodyBodyGyroMag.mean     Mean.freqBodyBodyGyroMag.std       
-[67] Mean.freqBodyBodyGyroJerkMag.mean Mean.freqBodyBodyGyroJerkMag.std   
+ 10 Mean.timeGravityAcc.mean.Y    
+ 11 Mean.timeGravityAcc.mean.Z   
+ 12 Mean.timeGravityAcc.std.X        
+ 13 Mean.timeGravityAcc.std.Y     
+ 14 Mean.timeGravityAcc.std.Z       
+ 15 Mean.timeBodyAccJerk.mean.X          
+ 16 Mean.timeBodyAccJerk.mean.Y    
+ 17 Mean.timeBodyAccJerk.mean.Z     
+ 18 Mean.timeBodyAccJerk.std.X       
+ 19 Mean.timeBodyAccJerk.std.Y    
+ 20 Mean.timeBodyAccJerk.std.Z   
+ 21 Mean.timeBodyGyro.mean.X         
+ 22 Mean.timeBodyGyro.mean.Y    
+ 23 Mean.timeBodyGyro.mean.Z    
+ 24 Mean.timeBodyGyro.std.X          
+ 25 Mean.timeBodyGyro.std.Y     
+ 26 Mean.timeBodyGyro.std.Z   
+ 27 Mean.timeBodyGyroJerk.mean.X       
+ 28 Mean.timeBodyGyroJerk.mean.Y   
+ 29 Mean.timeBodyGyroJerk.mean.Z    
+ 30 Mean.timeBodyGyroJerk.std.X      
+ 31 Mean.timeBodyGyroJerk.std.Y   
+ 32 Mean.timeBodyGyroJerk.std.Z   
+ 33 Mean.timeBodyAccMag.mean         
+ 34 Mean.timeBodyAccMag.std     
+ 35 Mean.timeGravityAccMag.mean    
+ 36 Mean.timeGravityAccMag.std       
+ 37 Mean.timeBodyAccJerkMag.mean    
+ 38 Mean.timeBodyAccJerkMag.std    
+ 39 Mean.timeBodyGyroMag.mean        
+ 40 Mean.timeBodyGyroMag.std    
+ 41 Mean.timeBodyGyroJerkMag.mean   
+ 42 Mean.timeBodyGyroJerkMag.std     
+ 43 Mean.freqBodyAcc.mean.X     
+ 44 Mean.freqBodyAcc.mean.Y      
+ 45 Mean.freqBodyAcc.mean.Z          
+ 46 Mean.freqBodyAcc.std.X      
+ 47 Mean.freqBodyAcc.std.Y    
+ 48 Mean.freqBodyAcc.std.Z           
+ 49 Mean.freqBodyAccJerk.mean.X    
+ 50 Mean.freqBodyAccJerk.mean.Y   
+ 51 Mean.freqBodyAccJerk.mean.Z      
+ 52 Mean.freqBodyAccJerk.std.X    
+ 53 Mean.freqBodyAccJerk.std.Y   
+ 54 Mean.freqBodyAccJerk.std.Z       
+ 55 Mean.freqBodyGyro.mean.X     
+ 56 Mean.freqBodyGyro.mean.Y    
+ 57 Mean.freqBodyGyro.mean.Z         
+ 58 Mean.freqBodyGyro.std.X    
+ 59 Mean.freqBodyGyro.std.Y   
+ 60 Mean.freqBodyGyro.std.Z          
+ 61 Mean.freqBodyAccMag.mean    
+ 62 Mean.freqBodyAccMag.std      
+ 63 Mean.freqBodyBodyAccJerkMag.mean   
+ 64 Mean.freqBodyBodyAccJerkMag.std    
+ 65 Mean.freqBodyBodyGyroMag.mean  
+ 66 Mean.freqBodyBodyGyroMag.std       
+ 67 Mean.freqBodyBodyGyroJerkMag.mean     
+ 68 Mean.freqBodyBodyGyroJerkMag.std   
 
 The subjects column contains numbers identifying 1 of the 30 subjects who participated in the events that were 
 used to create the data. The activities column contains 1 of 6 different activities the subjects participated 
