@@ -96,7 +96,7 @@ angle: Angle between to vectors.
 variable:
 
 gravityMean
-timeBodyAccMean
+timeBodyAccMea 
 timeBodyAccJerkMean
 timeBodyGyroMean
 timeBodyGyroJerkMean
