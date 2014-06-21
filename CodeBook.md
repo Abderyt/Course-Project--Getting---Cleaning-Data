@@ -5,7 +5,7 @@ at 180 68; aggregateDT is dimensioned at 10299 563.
 
 The columns (variables) of meanDT are named as follows:  
 
-    |                              |                               |                                   
+    |                              |                               |                                      
 ----|------------------------------|-------------------------------|---------------------------------  
  [1]| subjects                     |     activities                |     Mean.timeBodyAcc.mean.X    
  [4]| Mean.timeBodyAcc.mean.Y      |     Mean.timeBodyAcc.mean.Z   |     Mean.timeBodyAcc.std.X     
