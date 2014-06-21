@@ -54,13 +54,11 @@ freqBodyAccJerk.XYZ, freqBodyGyro.XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freq
 4. These signals were subsequently used to estimate variables for each pattern:  
 '.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*timeBodyAcc.XYZ   
-*timeGravityAcc.XYZ   
-*timeBodyAccJerk.XYZ   
-
-*timeBodyGyro.XYZ
-
-*timeBodyGyroJerk.XYZ
+timeBodyAcc.XYZ   
+timeGravityAcc.XYZ   
+timeBodyAccJerk.XYZ   
+timeBodyGyro.XYZ   
+timeBodyGyroJerk.XYZ
 
 *timeBodyAccMag
 
