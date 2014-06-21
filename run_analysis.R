@@ -86,6 +86,7 @@ setnames(aggregateDT,newNames)
 #     data table.  Rather than using a several lines of code to correct the 
 #     formatting, it is more straight forward to simply use the following
 #     to get the correctly formatted activity vector.
+#     This could and should be done in a better way.
 activityVector<-c("Walking","WalkingUpStairs","WalkingDownStairs","Sitting","Standing","Laying")
 for(i in 1:6) {
 	activities[activities==i]<-activityVector[i]
