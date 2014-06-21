@@ -123,14 +123,10 @@ bandsEnergy: Energy of a frequency interval within the 64 bins of the FFT of eac
 angle: Angle between to vectors
 
 6. Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle 
-variable:
+variable:  
 
-gravityMean
-
-timeBodyAccMean
-
-timeBodyAccJerkMean
-
-timeBodyGyroMean
-
-timeBodyGyroJerkMean
+gravityMean  
+timeBodyAccMean  
+timeBodyAccJerkMean  
+timeBodyGyroMean  
+timeBodyGyroJerkMean  
