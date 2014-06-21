@@ -3,6 +3,7 @@ at 180 68; aggregateDT is dimensioned at 10299 563.
 
 The columns (variables) of meanDT are named as follows:
 
+<<<<<<< HEAD
  [1] subjects                          activities                        Mean.timeBodyAcc.mean.X          
  [4] Mean.timeBodyAcc.mean.Y           Mean.timeBodyAcc.mean.Z           Mean.timeBodyAcc.std.X           
  [7] Mean.timeBodyAcc.std.Y            Mean.timeBodyAcc.std.Z            Mean.timeGravityAcc.mean.X       
@@ -26,6 +27,32 @@ The columns (variables) of meanDT are named as follows:
 [61] Mean.freqBodyAccMag.mean          Mean.freqBodyAccMag.std           Mean.freqBodyBodyAccJerkMag.mean 
 [64] Mean.freqBodyBodyAccJerkMag.std   Mean.freqBodyBodyGyroMag.mean     Mean.freqBodyBodyGyroMag.std     
 [67] Mean.freqBodyBodyGyroJerkMag.mean Mean.freqBodyBodyGyroJerkMag.std
+=======
+ [1] subjects                           activities                        Mean.timeBodyAcc.mean.X          
+ [4] Mean.timeBodyAcc.mean.Y            Mean.timeBodyAcc.mean.            Mean.timeBodyAcc.std.X           
+ [7] Mean.timeBodyAcc.std.Y             Mean.timeBodyAcc.std.Z            Mean.timeGravityAcc.mean.X      
+[10] Mean.timeGravityAcc.mean.Y         Mean.timeGravityAcc.mean.Z        Mean.timeGravityAcc.std.X       
+[13] Mean.timeGravityAcc.std.Y          Mean.timeGravityAcc.std.Z         Mean.timeBodyAccJerk.mean.X      
+[16] Mean.timeBodyAccJerk.mean.Y        Mean.timeBodyAccJerk.mean.Z       Mean.timeBodyAccJerk.std.X       
+[19] Mean.timeBodyAccJerk.std.Y         Mean.timeBodyAccJerk.std.Z        Mean.timeBodyGyro.mean.X         
+[22] Mean.timeBodyGyro.mean.Y           Mean.timeBodyGyro.mean.Z          Mean.timeBodyGyro.std.X          
+[25] Mean.timeBodyGyro.std.Y            Mean.timeBodyGyro.std.Z           Mean.timeBodyGyroJerk.mean.X     
+[28] Mean.timeBodyGyroJerk.mean.Y       Mean.timeBodyGyroJerk.mean.Z      Mean.timeBodyGyroJerk.std.X      
+[31] Mean.timeBodyGyroJerk.std.Y        Mean.timeBodyGyroJerk.std.Z       Mean.timeBodyAccMag.mean         
+[34] Mean.timeBodyAccMag.std            Mean.timeGravityAccMag.mean       Mean.timeGravityAccMag.std       
+[37] Mean.timeBodyAccJerkMag.mean       Mean.timeBodyAccJerkMag.std       Mean.timeBodyGyroMag.mean        
+[40] Mean.timeBodyGyroMag.std           Mean.timeBodyGyroJerkMag.mean     Mean.timeBodyGyroJerkMag.std     
+[43] Mean.freqBodyAcc.mean.X            Mean.freqBodyAcc.mean.Y           Mean.freqBodyAcc.mean.Z          
+[46] Mean.freqBodyAcc.std.X             Mean.freqBodyAcc.std.Y            Mean.freqBodyAcc.std.Z           
+[49] Mean.freqBodyAccJerk.mean.X        Mean.freqBodyAccJerk.mean.Y       Mean.freqBodyAccJerk.mean.Z      
+[52] Mean.freqBodyAccJerk.std.X         Mean.freqBodyAccJerk.std.Y        Mean.freqBodyAccJerk.std.Z       
+[55] Mean.freqBodyGyro.mean.X           Mean.freqBodyGyro.mean.Y          Mean.freqBodyGyro.mean.Z
+
+[58] Mean.freqBodyGyro.std.X            Mean.freqBodyGyro.std.Y           Mean.freqBodyGyro.std.Z          
+[61] Mean.freqBodyAccMag.mean           Mean.freqBodyAccMag.std           Mean.freqBodyBodyAccJerkMag.mean 
+[64] Mean.freqBodyBodyAccJerkMag.std    Mean.freqBodyBodyGyroMag.mean     Mean.freqBodyBodyGyroMag.std     
+[67] Mean.freqBodyBodyGyroJerkMag.mean  Mean.freqBodyBodyGyroJerkMag.std
+>>>>>>> 03cc6f2f8787ee98ba64e157726e64d235ec1b9e
 
 The subjects column contains numbers identifying 1 of the 30 subjects who participated in the events that were 
 used to create the data. The activities column contains 1 of 6 different activities the subjects participated 

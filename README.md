@@ -18,7 +18,11 @@ The activities file is then modified to replace the numerical activity entries w
 
 Next the aggregateDT is subsetted to obtain a data table which contains the columns that are the mean and std of each measurement. Grep is used to get the column numbers of the mean and std columns.  These are used as an index to subset the aggregateDT data table; this is named the extractDT data table.
 
+<<<<<<< HEAD
 A double key,subjects and activities, is then set on the extract DT data table. The grouping and use of functions in the column selection to produce means for each activity for each subject. Here is the primary reason the previous work was done to allow the data.table library to be used.  One command produces the desired clean, tidy data table, meanDT. It has 180 records, 6 activity records for each of the 30 subjects.  This is saved to disk as a data.table.
+=======
+A double key, subjects and activities, is then set on the extractDT data table. The grouping and use of functions in the column selection to produce means for each activity for each subject. Here is the primary reason the previous work was done to allow the data.table library to be used.  One command produces the desired clean, tidy data table, meanDT. It has 180 records, 6 activity records for each of the 30 subjects.  This is saved to disk as a data.table.
+>>>>>>> 03cc6f2f8787ee98ba64e157726e64d235ec1b9e
 
 The last 7 lines of code are used to demonstrate an example of the contents of the meanDT data table. The meanDT data.tables is first removed from the work space, then fread from the saved file back into the work space. Several rows and columns of each are then read to stdout to show the results of having generated the data.table.
 
