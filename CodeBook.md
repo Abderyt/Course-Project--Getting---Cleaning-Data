@@ -1,3 +1,5 @@
+##CodeBook.md
+
 The meanDT data.table was produced via subsetting a much larger data.table aggregateDT. meanDT is dimensioned 
 at 180 68; aggregateDT is dimensioned at 10299 563.
 
