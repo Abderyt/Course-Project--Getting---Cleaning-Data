@@ -18,7 +18,7 @@ system("cat trainData.txt testData.txt > aggregateData.txt")
 
 # This is a 7 line set of regular expressions that are passed to
 #     sed to do the following to the features.txt file:
-#		  Remove empty parenthesis
+#         Remove empty parenthesis
 #         Replace commas with periods
 #         Replace dashes with periods
 #         Replace the fBody abbreviation at the beginning of names with the string freqBody
