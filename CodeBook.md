@@ -22,6 +22,7 @@ The columns (variables) of meanDT are named as follows:
 [49] Mean.freqBodyAccJerk.mean.X        Mean.freqBodyAccJerk.mean.Y       Mean.freqBodyAccJerk.mean.Z      
 [52] Mean.freqBodyAccJerk.std.X         Mean.freqBodyAccJerk.std.Y        Mean.freqBodyAccJerk.std.Z       
 [55] Mean.freqBodyGyro.mean.X           Mean.freqBodyGyro.mean.Y          Mean.freqBodyGyro.mean.Z
+
 [58] Mean.freqBodyGyro.std.X            Mean.freqBodyGyro.std.Y           Mean.freqBodyGyro.std.Z          
 [61] Mean.freqBodyAccMag.mean           Mean.freqBodyAccMag.std           Mean.freqBodyBodyAccJerkMag.mean 
 [64] Mean.freqBodyBodyAccJerkMag.std    Mean.freqBodyBodyGyroMag.mean     Mean.freqBodyBodyGyroMag.std     
