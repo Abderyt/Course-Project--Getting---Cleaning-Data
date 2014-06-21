@@ -55,21 +55,38 @@ freqBodyAccJerk.XYZ, freqBodyGyro.XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freq
 '.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 timeBodyAcc.XYZ
+
+
 timeGravityAcc.XYZ
+
 timeBodyAccJerk.XYZ
+
 timeBodyGyro.XYZ
+
 timeBodyGyroJerk.XYZ
+
 timeBodyAccMag
+
 timeGravityAccMag
+
 timeBodyAccJerkMag
+
 timeBodyGyroMag
+
 timeBodyGyroJerkMag
+
 freqBodyAcc.XYZ
+
 freqBodyAccJerk.XYZ
+
 freqBodyGyro.XYZ
+
 freqBodyAccMag
+
 freqBodyAccJerkMag
+
 freqBodyGyroMag
+
 freqBodyGyroJerkMag
 
 5. The set of variables that were estimated from these signals are: 
