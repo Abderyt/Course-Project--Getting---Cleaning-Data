@@ -82,8 +82,8 @@ setnames(aggregateDT,newNames)
 
 # The activities_labels.txt file has this sequence of activities associated
 #     with the numbers 1 through 6. The formatting of the file is not
-#     consistent with the the formatting used in the rest of this
-#     data table.  Rather than using a several lines of code to correct the 
+#     consistent with the formatting used in the rest of this
+#     data table.  Rather than using several lines of code to correct the 
 #     formatting, it is more straight forward to simply use the following
 #     to get the correctly formatted activity vector.
 #     This could and should be done in a better way.
