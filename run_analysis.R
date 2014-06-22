@@ -84,7 +84,7 @@ setnames(aggregateDT,newNames)
 #     with the numbers 1 through 6. The formatting of the file is not
 #     consistent with the formatting used in the rest of this
 #     data table.  Rather than using several lines of code to correct the 
-#     formatting, it is more straight forward to simply use the following
+#     formatting, it is more straightforward to simply use the following
 #     to get the correctly formatted activity vector.
 #     This could and should be done in a better way.
 activityVector<-c("Walking","WalkingUpStairs","WalkingDownStairs","Sitting","Standing","Laying")
@@ -101,7 +101,7 @@ colNames<-names(aggregateDT)
 # Gets the column numbers of the columns that contain the mean, std, activities, and subjects.
 indexExtractColumnsDT<-sort(c(grep("\\bmean\\b",colNames),grep("\\bstd\\b",colNames),grep("^activities|subjects",colNames)))
 
-# Subsets the aggregateDT to the extractDT the contains means and std columns.
+# Subsets the aggregateDT to the extractDT that contains means and std columns.
 extractDT<-aggregateDT[,indexExtractColumnsDT,with=FALSE]
 
 # Sets a double key on the extractDT data table
