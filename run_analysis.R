@@ -27,7 +27,7 @@ system("cat trainData.txt testData.txt > aggregateData.txt")
 #         Remove a stray right paraenthesis in line 556	 
 write("/([ ]*)/s///g\n/,/s//./g\n/-/s//./g\n/fBody/s//freqBody/\n/tBody/s//timeBody/\n/tGravity/s//timeGravity/\n556 s/n)./n./","featureCmds.txt")
 
-# This executes the cleaning of the feature.txt file and produces a the colNames.txt file
+# This executes the cleaning of the feature.txt file and produces the colNames.txt file
 system("sed -f featureCmds.txt features.txt > colNames.txt")
 
 # These two lines concatenate the two subject and activities files to single 10299
