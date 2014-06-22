@@ -4,7 +4,7 @@ library(data.table)
 # This is a 2 line set of regular expressions that are 
 #      passed to sed to remove the 2 spaces at the beginning of
 #      the data sets and then changes all column spacing to a single space.
-#      This action facilitates the reading to the files into a data table.
+#      This action facilitates the reading of the files into a data table.
 write("/^[ ]*/s///\n/  /s// /g","dataCmds.txt")
 
 # This line cleans the training data
